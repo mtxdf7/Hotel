@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style3.css">
+    <title>
+        Sunshine Park Hotel
+    </title>
+</head>
+
+<body>
+
+    <div class="timer-style">
+
+        <p id="demo"></p>
+
+
+    </div>
+    <header>
+        <h1 id="hotel">Sunshine Park Hotel</h1>
+    </header>
+    <div class="obejeto-style">
+        <h2> Quantidade de Quartos</h2>
+        <h2 id="totalQuartos">totalQuartos</h2>
+        <h2> Quartos Reservados</h2>
+        <h2 id="reservados">Reservados</h2>
+        <h3><button id="disponibilidade">Disponibilidade</button></h3>
+    </div>
+
+    <script src="js/objeto.js"></script>
+
+    <script>
+        const d = new Date("Jun 10, 2021 00:00:00");
+        document.getElementById("demo").innerHTML = d;
+    </script>
+</body>
+
+</html>
